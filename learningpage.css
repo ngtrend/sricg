@@ -1,0 +1,52 @@
+body
+{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+.bg-img
+{
+    background-image: url('./img/learningpageimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 50vh;
+    display: flex;
+    align-items: end;
+}
+.content
+{
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 20px 30px ;
+}
+.course-flex
+{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.course-grid
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(25rem,3fr));
+    grid-gap: 10px;
+    justify-items: center;
+}
+.course-content
+{
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+.course-content img
+{
+ width: 100%;
+ height: auto;
+}
+.course-content-text
+{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+
+}

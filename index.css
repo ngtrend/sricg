@@ -1,0 +1,70 @@
+body
+{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+header
+{
+    display: flex;
+    justify-content: center;
+}
+.nav-bar
+{
+    position: fixed;
+    z-index: 100;
+}
+.nav-bar ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.nav-bar a
+{
+    font-size: 1rem;
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 black;
+    margin: 0px;
+    margin-right: 10px;
+}
+.nav-bar a:hover
+{
+    color: rgba(204, 218, 230, 0.931);
+    text-decoration: underline aqua;
+}
+main
+{
+    margin: 0px;
+    padding: 0px;
+}
+.landing-page
+{
+    background-image: url('./img/springlandingpage.png');
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.landing-page-content
+{
+   color: white;
+   margin: 12px;
+   margin-bottom: 25px;
+}
+.landing-page-btn
+{
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+}

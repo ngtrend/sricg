@@ -1,0 +1,12 @@
+body
+{
+    margin: 0%;
+}
+
+img
+{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 5% auto;
+}
